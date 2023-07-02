@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { ConvertPipe } from './convert.pipe';
 import { AddclassDirective } from './addclass.directive';
+import { TestmoduleModule } from './testmodule/testmodule.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AddclassDirective } from './addclass.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TestmoduleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
